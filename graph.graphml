@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="to"/>
+<node id="explore"/>
+<node id="strange"/>
+<node id="new"/>
+<node id="worlds"/>
+<node id="seek"/>
+<node id="out"/>
+<node id="life"/>
+<node id="and"/>
+<node id="civilizations"/>
+<edge source="to" target="explore">
+  <data key="d0">1</data>
+</edge>
+<edge source="to" target="seek">
+  <data key="d0">1</data>
+</edge>
+<edge source="explore" target="strange">
+  <data key="d0">1</data>
+</edge>
+<edge source="strange" target="new">
+  <data key="d0">1</data>
+</edge>
+<edge source="new" target="worlds">
+  <data key="d0">1</data>
+</edge>
+<edge source="new" target="life">
+  <data key="d0">1</data>
+</edge>
+<edge source="new" target="civilizations">
+  <data key="d0">1</data>
+</edge>
+<edge source="worlds" target="to">
+  <data key="d0">1</data>
+</edge>
+<edge source="seek" target="out">
+  <data key="d0">1</data>
+</edge>
+<edge source="out" target="new">
+  <data key="d0">1</data>
+</edge>
+<edge source="life" target="and">
+  <data key="d0">1</data>
+</edge>
+<edge source="and" target="new">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>
